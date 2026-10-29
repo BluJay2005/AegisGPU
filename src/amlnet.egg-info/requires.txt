@@ -1,0 +1,10 @@
+numpy>=1.26
+pandas>=2.0
+networkx>=3.0
+matplotlib>=3.7
+
+[dev]
+pytest>=8
+
+[postgres]
+psycopg[binary]>=3.1

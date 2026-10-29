@@ -1,0 +1,5 @@
+# NVIDIA GPU + CUDA 12 required. Install on top of requirements.txt:
+#   pip install -r requirements-gpu.txt
+--extra-index-url=https://pypi.nvidia.com
+cudf-cu12
+cugraph-cu12

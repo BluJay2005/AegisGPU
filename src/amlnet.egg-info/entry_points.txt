@@ -1,0 +1,2 @@
+[console_scripts]
+amlnet = amlnet.cli:main

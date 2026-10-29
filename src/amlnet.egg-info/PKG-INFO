@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: amlnet
+Version: 0.1.0
+Summary: GPU-accelerated financial fraud & AML network analyzer (RAPIDS cuDF/cuGraph, PostgreSQL + pgvector, NVIDIA NIM)
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26
+Requires-Dist: pandas>=2.0
+Requires-Dist: networkx>=3.0
+Requires-Dist: matplotlib>=3.7
+Provides-Extra: postgres
+Requires-Dist: psycopg[binary]>=3.1; extra == "postgres"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"

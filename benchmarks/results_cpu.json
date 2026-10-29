@@ -1,0 +1,44 @@
+{
+  "backend": "pandas + NetworkX (CPU fallback)",
+  "rows": [
+    {
+      "transactions": 100000,
+      "edges_scored": 36110,
+      "wall_s": 0.43,
+      "cycles_found": 22,
+      "host_to_device": 0.55,
+      "join_enrich_geo": 32.25,
+      "cycles_scc_prune_plus_joins": 192.15,
+      "structuring_groupby": 9.14,
+      "pass_through_mules": 11.25,
+      "pagerank": 117.67,
+      "total": 430.54
+    },
+    {
+      "transactions": 500000,
+      "edges_scored": 179598,
+      "wall_s": 2.05,
+      "cycles_found": 27,
+      "host_to_device": 0.58,
+      "join_enrich_geo": 159.84,
+      "cycles_scc_prune_plus_joins": 969.23,
+      "structuring_groupby": 9.3,
+      "pass_through_mules": 25.47,
+      "pagerank": 735.92,
+      "total": 2042.64
+    },
+    {
+      "transactions": 2000000,
+      "edges_scored": 719249,
+      "wall_s": 10.62,
+      "cycles_found": 20,
+      "host_to_device": 0.58,
+      "join_enrich_geo": 734.07,
+      "cycles_scc_prune_plus_joins": 5567.9,
+      "structuring_groupby": 13.05,
+      "pass_through_mules": 99.66,
+      "pagerank": 3813.46,
+      "total": 10596.47
+    }
+  ]
+}
